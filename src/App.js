@@ -1,23 +1,13 @@
-import logo from './logo.svg';
+//import Ustate from './components/Ustate'
 import './App.css';
+import Ueffect from './components/Ueffect';
+//import Ureducer from './components/Ureducer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <Ueffect />
     </div>
   );
 }
